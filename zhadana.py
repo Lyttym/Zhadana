@@ -213,9 +213,6 @@ while True:
 				ZhadanaSay('Зміну імені скасовано')
 			else:
 				username = r.recognize_google(audio, language='uk-UA').capitalize()
-				f = open("username.txt", "w")
-				f.write(username)
-				f.close()
 				ZhadanaSay("Нове ім'я встановлено успішно. Віднині ти "+username)
 		elif changeTown:
 			print(username+": Жадано, змінити місце проживання")
