@@ -1,3 +1,8 @@
+# Program personal files
+config.ini
+# Program temp files
+zhadana.mp3
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
