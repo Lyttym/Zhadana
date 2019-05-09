@@ -50,7 +50,7 @@ def ZhadanaSay(textSay='Пустий текст'):
 	zhadanaSay = textSay
 	tts = gTTS(zhadanaSay,lang='uk')
 	tts.save('zhadana.mp3')
-	os.system('start zhadana.mp3')
+	os.system('zhadana.mp3')
 	print('Жадана: ',zhadanaSay)
 
 try:
